@@ -30,12 +30,6 @@ textarea{
   border-radius: 15px;
 }
 
-.row {
-  white-space: pre-wrap;
-  height: 80px;
-  border-top: 1px solid white;;
-}
-
 .hour {
   background-color: #ffffff;
   color: #000000;
@@ -69,3 +63,45 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
+
+/*Timeblocks*/
+.timeblock {
+height: 90px;
+width: 80%;
+margin-bottom: 5px;
+}
+
+.activitys {
+  background-color: rgb(199, 199, 199);
+  white-space: normal;
+  word-wrap: break-word;
+  padding: 20px;
+  line-height: 1.5;
+  overflow-y:hidden;
+}
+
+.time{
+  padding-top: 28px;
+  height: auto;
+  background-color: white;
+  border-top: solid rgb(199,199,199) 1px;
+  /* border-bottom: solid rgb(199,199,199) 1px; */
+}
+
+.save {
+  background-color: #06AED5;
+  color: white;
+  padding-top: 28px;
+  margin-top: 5px;
+  height: 80px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.save:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+

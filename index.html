@@ -18,21 +18,45 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
   <body>
+
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container">
-      <!-- Timeblocks go here -->
-    </div>
+
+
+    <main class="">
+      <div class="row mx-auto d-flex d-flexwrap justify-content-center">
+        <!-- Timeblocks go here -->
+        <div class="timeblock row border-white">
+          <span class="time col-2 col-lg-1 text-center">9am</span>
+          <!-- <span class="activitys col-8 col-lg-10 ">            
+          </span>
+        -->
+        <textarea maxlength="100" class="activitys col-8 col-lg-10 "></textarea> 
+          <span class="save col-2 col-lg-1 text-center ">Save</span>
+        </div>
+
+        <div class="timeblock row rounded border-white">
+          <span class="time col-2 col-lg-1 text-center">9am</span>
+          <textarea rows="2" class="activitys col-8 col-lg-10 "></textarea>
+          <!-- <span class="activitys col-8 col-lg-10 ">          
+          </span>
+        -->
+          <span class="save col-2 col-lg-1 text-center">Save</span>
+        </div>
+
+      </div>
+    </main>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
   </body>
 </html>
