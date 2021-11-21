@@ -1,8 +1,6 @@
 var lastHour;
 var activityListText = [];
 
-
-
 //Finds hour of current timezone then calls changeColor.
 var findHour = function() {
   var hour = moment().format('HH');
@@ -62,6 +60,12 @@ var saveTextArea = function() {
 var loadTextArea = function() {
   //gets activityListText array from local storage
   activityListText = JSON.parse(localStorage.getItem("Text"));
+  console.log(activityListText);
+
+  //if activityListText is null set it to an array
+  if (!activityListText) {
+    activityListText = [];
+  }
 
   //loops through activityListText array to find any saved text using i and index
   for (var i = 0; i <= 9; i++) {
