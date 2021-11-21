@@ -1,7 +1,7 @@
 # Work Day Scheduler
 
 ## Purpose
-A website that helps the user plan and Schedule their day.
+A website that helps the user plan and schedule their day.
 
 ## Screen Shots
 ![ScreenShot](./assets/images/Screenshot1.png?raw=true "top")
